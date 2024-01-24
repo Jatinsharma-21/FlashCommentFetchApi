@@ -52,7 +52,22 @@ python app.py
   GET /search?like_from=0&like_to=5
 
 ![3](https://github.com/Jatinsharma-21/FlashCommentFetchApi/assets/96420426/b19b10f0-5d0a-4669-806e-7244bd802612)
+
+- `reply_from`, `reply_to`: (Optional) Filter comments by replies range. These parameters enable you to narrow down comments based on the number of replies they have received. Specify a minimum (`reply_from`) and maximum (`reply_to`) number of replies for the comments to be included in the search.
+
+  **Example:**
+  ```http
+  GET /search?reply_from=2&reply_to=5
+
 ![Reply](https://github.com/Jatinsharma-21/FlashCommentFetchApi/assets/96420426/4849859f-c978-450a-8c09-c23924f20fdf)
+
+
+- `search_text`: (Optional) Filter comments by text. This parameter allows you to search for comments containing specific keywords or phrases. Provide the desired text as the value of the parameter to retrieve comments that match the specified criteria.
+
+  **Example:**
+  ```http
+  GET /search?search_text=important
+
 ![text](https://github.com/Jatinsharma-21/FlashCommentFetchApi/assets/96420426/11c5d03d-b512-448e-8741-7ecd7f109ba2)
 
 
