@@ -1,6 +1,7 @@
 # Comment Search API
 
-This Flask API allows you to search and filter comments from a remote API based on various parameters such as author, date, likes, replies, and text.
+The Flask API defined in the provided script establishes an endpoint, '/search', designed to handle HTTP GET requests. It processes various query parameters, including 'search_author', 'at_from', 'at_to', and more, extracting them from the request URL. Constructing a parameter dictionary, the API sends a GET request to an external API specified by 'BASE_URL' and parses the resulting comments. The 'filter_comments' function systematically iterates through each comment, applying filters based on parameters like author, date range, likes, replies, and search text. Filtered comments meeting all specified criteria are compiled into a 'filtered_comments' list. Additional functions handle specific filtering logic for author, date, likes, replies, and text. The script includes a block ensuring that the Flask app runs only when executed directly, launching the development server with debugging enabled. In summary, this API acts as a middleware, facilitating the retrieval and filtration of comments from an external source based on user-defined parameters.
+
 
 ## Getting Started
 
