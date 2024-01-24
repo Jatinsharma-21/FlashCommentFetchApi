@@ -12,10 +12,26 @@ This Flask API allows you to search and filter comments from a remote API based 
 
 ### Installation
 
-pip install -r requirements.txt
+pip install flask
 
 ### Run the Flask application
 python app.py
+
+## API Endpoints
+
+### Search Comments
+
+**Endpoint:** `/search`  
+**Method:** `GET`
+
+
+#### Query Parameters
+
+- `search_author`: (Optional) Filter comments by the author's name. This parameter allows you to narrow down the search to comments posted by a specific author. Provide the author's name as a query parameter value.
+
+  **Example:**
+  ```http
+  GET /search?search_author=JohnDoe
 
 
 ![1](https://github.com/Jatinsharma-21/FlashCommentFetchApi/assets/96420426/29e4d49d-b4e5-43c9-a4c8-5e4a1b6e6257)
