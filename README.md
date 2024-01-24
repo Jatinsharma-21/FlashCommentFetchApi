@@ -81,5 +81,3 @@ To demonstrate how to use the Comment Search API, consider the following example
 ```http
 GET http://127.0.0.1:5000/search?like_from=0&search_author=Did%20you%20know%3F&at_from=25-01-2023&at_to=25-01-2023&reply_from=1&search_text=hope
 
-
-# Thank You for Using Comment Search API Happy coding! 🚀
