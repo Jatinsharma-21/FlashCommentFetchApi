@@ -6,7 +6,7 @@ The Flask API defined in the provided script establishes an endpoint, `/search`,
 
 
 ## Getting Started
-
+ 
 ### Prerequisites
 
 - Python 3.x
