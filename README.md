@@ -73,5 +73,16 @@ python app.py
 
 ![text](https://github.com/Jatinsharma-21/FlashCommentFetchApi/assets/96420426/11c5d03d-b512-448e-8741-7ecd7f109ba2)
 
+## Example
+
+To demonstrate how to use the Comment Search API, consider the following example query parameters:
+
+```http
+GET http://127.0.0.1:5000/search?like_from=0&search_author=Did%20you%20know%3F&at_from=25-01-2023&at_to=25-01-2023&reply_from=1&search_text=hope
+
+
+![all](https://github.com/Jatinsharma-21/FlashCommentFetchApi/assets/96420426/088c0ff7-fd4f-4393-9d9c-d59372be95ff)
+
+
 
 
