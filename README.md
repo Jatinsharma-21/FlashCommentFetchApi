@@ -13,6 +13,8 @@ This Flask API allows you to search and filter comments from a remote API based 
 ### Installation
 
 pip install -r requirements.txt
+
+### Run the Flask application
 python app.py
 
 
