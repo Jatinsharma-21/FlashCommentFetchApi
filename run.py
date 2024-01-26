@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 import requests
 from datetime import datetime
 app = Flask(__name__)
+if __name__ == "__main__":
+    app.run(debug=False)
 
 BASE_URL = "https://app.ylytic.com/ylytic/test"
 
